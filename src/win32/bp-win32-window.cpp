@@ -1,6 +1,6 @@
 #pragma once
 
-#include "brewpanel-win32.hpp"
+#include "bp-win32.hpp"
 
 global BPWin32Window bp_win32_window; 
 

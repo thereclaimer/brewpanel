@@ -10,9 +10,9 @@
 #define api      extern "C" __declspec(dllimport)
 #define null     0
 
-#define possum_assert(condition) if(!(condition)) *((int*)(NULL)) = 1
-#define possum_nop()             possum_assert(true)
-#define possum_panic()           possum_assert(false)
+#define brewpanel_assert(condition) if(!(condition)) *((int*)(NULL)) = 1
+#define brewpanel_nop()             possum_assert(true)
+#define brewpanel_panic()           possum_assert(false)
 
 typedef int8_t   s8;
 typedef int16_t  s16;
